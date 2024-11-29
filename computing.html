@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computing Devices</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 100%;
+            margin: auto;
+            padding: 20px;
+            background: rgb(1, 6, 75);
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(2, 34, 34, 0.219);
+            margin-top: -20px;
+            color: azure;
+        }
+
+        .sub {
+            background: linear-gradient(45deg, rgba(2, 6, 68, 0.555), rgba(0, 150, 100, 0.8));
+            color: azure;
+            width: 30%;
+            border-radius: 8px;
+        }
+
+        .sub h2 {
+            align-items: center;
+            margin-left: 10px;
+        }
+
+        .items {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            max-width: 100%;
+            gap: 10px;
+
+        }
+
+        .item {
+            width: 18%;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            background-color:azure;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            text-align: center;
+            margin: 10px 0;
+            flex-direction: column;
+            overflow:hidden;
+            
+        }
+        .item:hover {
+    background-color: #e0f7fa; /* Lighter background on hover */
+    transform: scale(1.05); /* Slightly larger */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3); /* More intense shadow */
+}
+
+        .item img {
+            height: 200px;
+            width: 90%;
+        }
+        .item button{
+            border: none;
+            cursor: pointer;
+            background-color:azure;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="section">
+        <div class="brand">
+            <h1>Computing Devices</h1>
+        </div>
+        <div class="sub">
+            <h2>Desktop Computers</h2>
+        </div>
+        <div class="items">
+            <div class="item">
+                <button onclick="window.location.href='Desktops/tower.html';"><img src="https://thinpc.online/cdn/shop/files/1_f8a92b56-82a0-4a84-a7cf-0d474dc6bc82.jpg?v=1688814800&width=493"
+                    alt="#" />
+                <h4>Tower Desktop</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Desktops/allinone.html';"><img src="https://thinpc.online/cdn/shop/products/bd58af42-a3bf-452c-beb7-d.jpg?v=1546414736&width=360" alt="#" />
+                <h4>All-in-One (AIO) Desktop</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Desktops/mini.html';"><img src="https://thinpc.online/cdn/shop/files/3_7c1fd037-90db-4ece-9bff-75ec421f15d2.jpg?v=1706356956&width=493" alt="#" />
+                <h4>Mini PC (Small Form Factor)</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Desktops/gaming.html';"><img src="https://thinpc.online/cdn/shop/files/lenovo_e09281a7-dc77-4246-a96e-2872fc5b2e3b.jpg?v=1696406298&width=493" alt="#" />
+                <h4>Gaming Desktop</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Desktops/workstation.html';"><img src="https://c4.wallpaperflare.com/wallpaper/820/564/854/apple-computer-desk-devices-wallpaper-preview.jpg" alt="#" />
+                <h4>Workstation Desktop</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Desktops/compact.html';"><img src="https://thinpc.online/cdn/shop/products/dell-sff-3_92670b79-1c47-46c2-88c4-1f64c148c31c.jpg?v=1616159311&width=493" alt="#" />
+                <h4>Compact/Small Form Factor (SFF) Desktop</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Desktops/thin.html';"><img src="https://thinpc.online/cdn/shop/products/1_b1b6ef0e-52db-4e17-afdc-eab9fc3b49e4.jpg?v=1679740265&width=493" alt="#" />
+                <h4>Thin Client/Desktop</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Desktops/server.html';"><img src="https://thinpc.online/cdn/shop/files/2_48eba4fa-ac4e-450c-9748-2e25a5ecc701.jpg?v=1694606451&width=493" alt="#" />
+                <h4>Server Desktop</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Desktops/portable.html';">  <img src="https://image.made-in-china.com/226f3j00SalWRNMcAiGw/Fanless-Industrial-Mini-Box-Gigabit-Ethernet-for-Home-Office-Support-4K-HDMI-Type-C-Dual-WiFi-Linux-Win11-PRO-Office-Dual-Display-Micro-Small-Desktop-Mini-PC.webp" alt="#" />
+                <h4>Portable Desktop (LAN Box)</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Desktops/custom.html';"><img src="https://thinpc.online/cdn/shop/files/POS-Full-SETs.jpg?v=1693215746&width=493" alt="#" />
+                <h4>Custom-Built Desktop</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Desktops/hometheatre.html';"><img src="https://thinpc.online/cdn/shop/files/2_2.jpg?v=1729258076&width=493" alt="#" />
+                <h4>Home Theater PC (HTPC)</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Desktops/barebones.html';"><img src="https://m.media-amazon.com/images/I/81P7Ng7dGFL.jpg" alt="#" />
+                <h4>Barebones PC</h4>
+                <p></p></button>
+            </div>
+
+        </div>
+        <div class="sub">
+            <h2>Laptops</h2>
+        </div>
+        <div class="items">
+            <div class="item">
+                <button onclick="window.location.href='Laptops/treditional.html';"> <img src="https://m.media-amazon.com/images/I/81KvaJyJAvL._AC_UF1000,1000_QL80_.jpg" alt="#" />
+                <h4>Traditional/Clamshell Laptop</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Laptops/ultrabook.html';">  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSJ3lmUMfhOjpRBqOYBOpYg83TM3pH10Cf-A&s" alt="#" />
+                <h4>Ultrabook</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Laptops/twoinone.html';"><img src="https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/xps-13-9315-2in1/media-gallery/blue/tablet-xps-13-9315-blue-gallery-10.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=751&qlt=100,1&resMode=sharp2&size=751,402&chrss=full" alt="#" />
+                <h4>2-in-1 Laptop (Convertible or Hybrid)</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Laptops/gaming.html';">  <img src="https://5.imimg.com/data5/SELLER/Default/2022/5/CO/NL/LE/150885575/asus-rog-zephyrus-duo-gaming-laptop-15-6-uhd-4k-gsync-secondary-display-core-i9-10980hk-nvidia.jpg" alt="#" />
+                <h4>Gaming Laptop</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Laptops/business.html';"> <img src="https://s.alicdn.com/@sc04/kf/H5b0a1bd1481f4b2b84f15a0291628600w.jpg_720x720q50.jpg" alt="#" />
+                <h4>Business Laptop</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Laptops/workstation.html';"> <img src="https://m.media-amazon.com/images/I/61iyjiO7k6L.jpg" alt="#" />
+                <h4>Workstation Laptop</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Laptops/rugged.html';"> <img src="https://i.pcmag.com/imagery/reviews/03Dv7AVBq4Rz218ePcc1fqB-1.fit_lim.size_919x518.v1655816447.jpg" alt="#" />
+                <h4>Rugged Laptop</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Laptops/netbook.html';"> <img src="https://image.made-in-china.com/202f0j00zoapfckJYurn/Frameless-4K-Screen-15-6-Inch-Core-I5-Full-Display-Full-Screen-Laptop.webp" alt="#" />
+                <h4>Netbook</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Laptops/chromebook.html';">  <img src="https://m.media-amazon.com/images/I/81cjdARZzhL.jpg" alt="#" />
+                <h4>Chromebook</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Laptops/macbook.html';">  <img src="https://wallpapercave.com/wp/wp8971473.jpg" alt="#" />
+                <h4>MacBook</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Laptops/touchscreen.html';"><img src="https://m.media-amazon.com/images/I/51BMiPWtYeL.jpg" alt="#" />
+                <h4>Touchscreen Laptop</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Laptops/portable.html';"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF7GuUinL1a4uINV-GWbpSbwXVjeY2CSX4Hg&s" alt="#" />
+                <h4>Portable Gaming Laptop (Thin Gaming Laptop)</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Laptops/deatachable.html';">  <img src="https://i.dell.com/is/image/DellContent//content/dam/images/products/tablets/latitude/13-7320-touch/secure/la7320t-xtb-shot03-gy.psd?fmt=pjpg&pscan=auto&scl=1&wid=2910&hei=3233&qlt=100,1&resMode=sharp2&size=2910,3233&chrss=full&imwidth=5000" alt="#" />
+                <h4>Detachable Laptop (Tablet with Detachable Keyboard)</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Laptops/student.html';"><img src="https://c0.wallpaperflare.com/preview/352/710/333/agency-business-company-computer.jpg" alt="#" />
+                <h4>Student/Education Laptop</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Laptops/mini.html';"> <img src="https://image.made-in-china.com/2f0j00JBMkRemyGlqz/13th-Gen-Intel-N5105-Laptop-Computer-14-Inch-4K-Display-Mini-Notebook-PC-RAM-16GB-DDR4.webp" alt="#" />
+                <h4>Mini Laptop</h4>
+            <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Laptops/foldable.html';"> <img src="https://5.imimg.com/data5/XF/WS/MY-3203416/dell-xps-foldable-screen-laptop.jpg" alt="#" />
+                <h4>Foldable Laptop</h4>
+                <p></p></button>
+            </div>
+        </div>
+        <div class="sub">
+            <h2>Monitors</h2>
+        </div>
+        <div class="items">
+            <div class="item">
+                <button onclick="window.location.href='Monitors/lcd.html';">  <img src="https://www.lifewire.com/thmb/3GpoaR1VxXFOiY9-m8yT8S0lQX8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/LG-22-28-LG4540-LED-LCD-TV-AMZN-xxx-58ceff565f9b581d726af2ca-b12a1544bfda41418aaaf0afb6aa0375.jpg" alt="#" />
+                <h4>LCD Monitor (Liquid Crystal Display)</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Monitors/led.html';"> <img src="https://content.jdmagicbox.com/quickquotes/images_main/lg_24_inch_led_monitor_24mp58vq__17258436_0.jpg?impolicy=queryparam&im=Resize=(360,360),aspect=fit" alt="#" />
+                <h4>LED Monitor (Light Emitting Diode)</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Monitors/oled.html';">  <img src="https://image.benq.com/is/image/benqco/eyecare-thumbnail?$ResponsivePreset$" alt="#" />
+                <h4>OLED Monitor (Organic Light Emitting Diode)</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Monitors/ips.html';"> <img src="https://inquirecontent2.ingrammicro.com/images/300/1064368614.jpg" alt="#" />
+                <h4>IPS Monitor (In-Plane Switching)</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Monitors/tn.html';">   <img src="https://www.sharpmeg.com/wp-content/uploads/2017/11/Article-10.jpg" alt="#" />
+                <h4>TN Monitor (Twisted Nematic)</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Monitors/va.html';">  <img src="https://5.imimg.com/data5/SELLER/Default/2020/11/KI/XU/DQ/98507900/acer-et322qk-31-5-inch-4k-uhd-3840x2160-led-monitor-500x500.png" alt="#" />
+                <h4>VA Monitor (Vertical Alignment)</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Monitors/curved.html';">  <img src="https://i.dell.com/is/image/DellContent//content/dam/images/products/electronics-and-accessories/dell/monitors/s-series/s3221qs/s3221qs-xfp-03-gy.psd?fmt=pjpg&pscan=auto&scl=1&wid=3426&hei=4556&qlt=100,1&resMode=sharp2&size=3426,4556&chrss=full&imwidth=5000" alt="#" />
+                <h4>Curved Monitor</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Monitors/ultra.html';"> <img src="https://i.pcmag.com/imagery/roundups/062FaBOhkiYQrcwI97OZJjh-12..v1692309949.jpg" alt="#" />
+                <h4>Ultra-Wide Monitor</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Monitors/4k.html';"> <img src="https://www.lg.com/content/dam/channel/wcms/in/images/monitors/27up850n-w_atr_eail_in_c/gallery/27UP850N-W-D01.jpg" alt="#" />
+                <h4>4K/UHD Monitor</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Monitors/5k&8k.html';">  <img src="https://images.fonearena.com/blog/wp-content/uploads/2017/01/Dell-UP3218K.jpg" alt="#" />
+                <h4>5K and 8K Monitors</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Monitors/touchscreen.html';">  <img src="https://sidetrak.com/cdn/shop/products/01_Sidetrak_Solo-4k-touch_4k-touchscreen-monitor_2021.04.19_Product_STFR4KTC15BL_4K-Touch_Primary-crop_1024x1024.jpg?v=1632422165" alt="#" />
+                <h4>Touchscreen Monitor</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Monitors/portable.html';"> <img src="https://www.uperfectmonitor.com/cdn/shop/files/uperfect-4k-17-3-portable-monitor-173a03_1.png?v=1699255575" alt="#" />
+                <h4>Portable Monitor</h4>
+                <p></p></button>
+            </div>
+        </div>
+        <div class="sub">
+            <h2>Docking Stations</h2>
+        </div>
+        <div class="items">
+            <div class="item">
+                <button onclick="window.location.href='Docking/universal.html';">  <img src="https://m.media-amazon.com/images/I/61iefVPGemL.jpg" alt="#" />
+                <h4>Universal Docking Station</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Docking/usb.html';"><img src="https://m.media-amazon.com/images/I/71Zt6c3qjEL.jpg" alt="#" />
+                <h4>USB-C Docking Station</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Docking/thunderbolt.html';"> <img src="https://www.tpstech.in/cdn/shop/files/51yaO_BAbXL._SL1280.jpg?v=1716186308&width=1445" alt="#" />
+                <h4>Thunderbolt Docking Station</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Docking/vertical.html';"> <img src="https://images-cdn.ubuy.co.in/63b13ec55535102dac7e0f82-ascrono-vertical-docking-station-hub.jpg" alt="#" />
+                <h4>Vertical Docking Station</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Docking/port.html';"> <img src="https://media.startech.com/cms/products/gallery_large/dk30a2dh.main.jpg" alt="#" />
+                <h4>Port Replicator</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Docking/lapstand.html';"> <img src="https://www.ugreenindia.com/cdn/shop/files/61hcnspucks-_sl1500.jpg?v=1719806379&width=1214" alt="#" />
+                <h4>Laptop Stand Docking Station</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Docking/wireless.html';"> <img src="https://m.media-amazon.com/images/I/513Xy+4WkrL._AC_UF1000,1000_QL80_.jpg" alt="#" />
+                <h4>Wireless Docking Station</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Docking/dual.html';">  <img src="https://m.media-amazon.com/images/I/71kH-SlHDjL.jpg" alt="#" />
+                <h4>Dual/Triple Display Docking Station</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Docking/gaming.html';"> <img src="https://m.media-amazon.com/images/I/61v-2IZAuuL._AC_UF1000,1000_QL80_.jpg" alt="#" />
+                <h4>Gaming Docking Station</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Docking/specialized.html';"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC0PKAmcXP-9t9Davvqs0Jq5IfPjOGlTn-Hw&s" alt="#" />
+                <h4>Specialized Proprietary Docking Station</h4>
+                <p></p></button>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

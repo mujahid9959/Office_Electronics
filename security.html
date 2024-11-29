@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Security and Access Control</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 100%;
+            margin: auto;
+            padding: 20px;
+            background: rgb(1, 6, 75);
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(2, 34, 34, 0.219);
+            margin-top: -20px;
+            color:azure;
+        }
+
+        .sub {
+            background: linear-gradient(45deg, rgba(2, 6, 68, 0.555), rgba(0, 150, 100, 0.8));
+            color: azure;
+            width: 30%;
+            border-radius: 8px;
+        }
+
+        .sub h2 {
+            align-items: center;
+            margin-left: 10px;
+        }
+
+        .items {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            max-width: 100%;
+            gap: 10px;
+
+        }
+
+        .item {
+            width: 18%;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            background-color:azure;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            text-align: center;
+            margin: 10px 0;
+            flex-direction: column;
+            overflow:hidden;
+            
+        }
+        .item:hover {
+    background-color: #e0f7fa; /* Lighter background on hover */
+    transform: scale(1.05); /* Slightly larger */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3); /* More intense shadow */
+}
+
+        .item img {
+            height: 200px;
+            width: 90%;
+        }
+        .item button{
+            border: none;
+            cursor: pointer;
+            background-color:azure;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="section">
+        <div class="brand">
+            <h1>Security and Access Control</h1>
+        </div>
+        <div class="sub">
+            <h2>CCTV Cameras</h2>
+        </div>
+        <div class="items">
+            <div class="item">
+                <button onclick="window.location.href='Cctv/dome.html';"> <img src="https://m.media-amazon.com/images/I/61BIaVLAtVL.jpg" alt="#" />
+                <h4>Dome Cameras</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Cctv/bullet.html';"> <img src="https://m.media-amazon.com/images/I/61DOK9rkpAL._AC_UF1000,1000_QL80_.jpg" alt="#" />
+                <h4>Bullet Cameras</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Cctv/ptz.html';"> <img src="https://m.media-amazon.com/images/I/61And1DKsSL._AC_UF1000,1000_QL80_.jpg"
+                    alt="#" />
+                <h4>PTZ Cameras (Pan-Tilt-Zoom)</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Cctv/c.html';"> <img src="https://m.media-amazon.com/images/I/51aZrCPuy0L.jpg" alt="#" />
+                <h4>C-Mount Cameras</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Cctv/infrared.html';"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBjFq2Lot5hYDeXWACzRZNyKJDFHWv-E5yeA&s"
+                    alt="#" />
+                <h4>Infrared (IR) / Night Vision Cameras</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Cctv/network.html';"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGEy-W338mC_thQEvEv36wmRrTnYM76EDxXg&s"
+                    alt="#" />
+                <h4>Network/IP Cameras</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Cctv/wireless.html';"> <img src="https://m.media-amazon.com/images/I/31zn+8fgO1L.jpg"
+                    alt="#" />
+                <h4>Wireless Cameras</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Cctv/high.html';">  <img src="https://image.made-in-china.com/2f0j00aseqEFjCQKod/Professional-4K-High-Definition-Digital-Touch-Focus-LCD-Screen-Video-Camera.webp"
+                    alt="#" />
+                <h4>High Definition (HD) Cameras</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Cctv/day.html';">  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr4oeA6SkyTdv0AnzVRyUABzlTMSTvDCARVg&s"
+                    alt="#" />
+                <h4>Day/Night Cameras</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Cctv/thermal.html';"> <img src="https://www.designinfo.in/wp-content/uploads/nc/p/4/6/0/8/8/46088-485x485-optimized.jpg" alt="#" />
+                <h4>Thermal Cameras</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Cctv/360.html';">  <img src="https://m.media-amazon.com/images/I/512bEP-twjL._AC_UF1000,1000_QL80_.jpg" alt="#" />
+                <h4>360-Degree Cameras</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Cctv/license.html';"> <img src="https://montavue.com/cdn/shop/files/LPR-MainAimingleft.jpg?v=1703610885" alt="#" />
+                <h4>License Plate Recognition (LPR) Cameras</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Cctv/hidden.html';"> <img src="https://m.media-amazon.com/images/I/61GE27kSnFL.jpg" alt="#" />
+                <h4>Hidden Cameras</h4>
+                <p></p></button>
+            </div>
+        </div>
+        <div class="sub">
+            <h2>Access Control Systems</h2>
+        </div>
+        <div class="items">
+            <div class="item">
+                <button onclick="window.location.href='Access/keypad.html';">  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh_d-ClpmBkZUU_Cfl6qNnOS8c7Yb4F31kSw&s" alt="#" />
+                <h4>Keypad Access Control Systems</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Access/card.html';"> <img src="https://2.wlimg.com/product_images/bc-full/2021/5/8735355/card-based-access-control-system-1620989392-5822174.jpeg" alt="#" />
+                <h4>Card-Based Access Control Systems</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Access/biometric.html';"> <img src="https://5.imimg.com/data5/SELLER/Default/2021/11/FO/YL/JO/98645211/p160-palm-recognition-multi-biometric-time-attendance-access-control-system.png"
+                    alt="#" />
+                <h4>Biometric Access Control Systems</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Access/mobile.html';"> <img src="https://res.cloudinary.com/kisi-kloud/image/upload/c_fill_pad,f_png,g_auto:none,h_627,w_1200/v1//collections/guides/mobile-access-control-guide/mobile-access-control-guide-5f3401706e806a4b243838d9" alt="#" />
+                <h4>Mobile-Based Access Control Systems</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Access/rfid.html';">  <img src="https://res.cloudinary.com/kisi-kloud/image/upload/c_lfill,dpr_auto,f_auto,q_auto:good,w_2078/v1/products/access-methods/kisi-reader-pro-credentials-card"
+                    alt="#" />
+                <h4>RFID (Radio Frequency Identification) Access Control</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Access/fingerprint.html';"> <img src="https://5.imimg.com/data5/FL/LR/MY-7388268/fingerprint-access-control-system-500x500.jpg"
+                    alt="#" />
+                <h4>Fingerprint Access Control Systems</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Access/intercom.html';">  <img src="https://pwssystemscumbria.co.uk/wp-content/uploads/2020/01/Paxton-Intercom-e1577962851871-768x1024.jpg"
+                    alt="#" />
+                <h4>Intercom-Based Access Control Systems</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Access/access.html';">  <img src="https://5.imimg.com/data5/SELLER/Default/2024/5/422496001/XG/TN/EM/222175481/access-control-turnstile.png"
+                    alt="#" />
+                <h4>Access Control Turnstiles and Gates</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Access/standalone.html';"> <img src="https://5.imimg.com/data5/SELLER/Default/2024/9/452568137/YC/MZ/RY/3083241/team-office-z101-stand-alone-access-control-system.jpeg" alt="#" />
+                <h4>Standalone Access Control Systems</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Access/lot.html';"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4UNw4V57VVrKJboCldbUYDJe07uz8PmQs_Q&s" alt="#" />
+                <h4>IoT-Based Access Control Systems</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Access/proximity.html';"> <img src="https://4.imimg.com/data4/MP/JH/MY-26034426/proximity-access-control-system-500x500.jpeg" alt="#" />
+                <h4>Proximity Access Control Systems</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Access/keyless.html';"> <img src="https://www.shutterstock.com/shutterstock/videos/3536772173/thumb/6.jpg?ip=x480" alt="#" />
+                <h4>Keyless and Keypad Door Locks</h4>
+                <p></p></button>
+            </div>
+        </div>
+        <div class="sub">
+            <h2>Alarm Systems</h2>
+        </div>
+        <div class="items">
+            <div class="item">
+                <button onclick="window.location.href='Alarm/burglar.html';"> <img src="https://www.fireknock.com/products/Intrusion-Alarm-System.jpg" alt="#" />
+                <h4>Burglar (Intrusion) Alarm Systems</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Alarm/fire.html';"> <img src="https://cdn.pixabay.com/photo/2018/05/18/00/15/alarm-3410065_1280.jpg" alt="#" />
+                <h4>Fire Alarm Systems</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Alarm/carbon.html';"> <img src="https://m.media-amazon.com/images/I/51RBX7hitxL.jpg"
+                    alt="#" />
+                <h4>Carbon Monoxide (CO) Alarms</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Alarm/environmental.html';"> <img src="https://cdn11.bigcommerce.com/s-eepum2kxx5/images/stencil/640w/products/308/23132/359a2be50bc83d9eefcc10a770d0ab6176db2750ac4d22dfa413509f21a81427__30651.1.png" alt="#" />
+                <h4>Environmental Alarms</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Alarm/panic.html';"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEp6HRXshvO64l0_P6NzpTmd3g10SD29BJYg&s"
+                    alt="#" />
+                <h4>Panic or Duress Alarms</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Alarm/medical.html';">  <img src="https://fortune.static-contentbridge.com/wp-content/uploads/2024/07/best-medical-alert-systems-adt-medical-alert-plus-1.jpg"
+                    alt="#" />
+                <h4>Medical Alert Systems</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Alarm/smart.html';"> <img src="https://m.media-amazon.com/images/I/61GMdn+GbXL._AC_UF1000,1000_QL80_.jpg"
+                    alt="#" />
+                <h4>Smart Alarm Systems</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Alarm/video.html';">  <img src="https://m.media-amazon.com/images/I/61YVmoHb8SL.jpg"
+                    alt="#" />
+                <h4>Video Surveillance Systems</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Alarm/monitored.html';"> <img src="https://s3.ap-south-1.amazonaws.com/brandbuddiez.com//89/img/product/48/710//STI-NVR64S8-4K.webp" alt="#" />
+                <h4>Monitored Alarm Systems</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Alarm/unmonitored.html';"> <img src="https://www.safewise.com/app/uploads/2023/02/SimpliSafe-Lighthouse-1-300x267.png" alt="#" />
+                <h4>Unmonitored (Local) Alarm Systems</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Alarm/wireless.html';"> <img src="https://m.media-amazon.com/images/I/61HuHC9Ta-L._AC_UF894,1000_QL80_.jpg" alt="#" />
+                <h4>Wireless Alarm Systems</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Alarm/wired.html';"> <img src="https://5.imimg.com/data5/SELLER/Default/2023/2/AJ/JV/XU/5933439/spider-8-zone-anti-theft-wired-security-system-intrusion-alarm-burglar-alarm-made-in-india.jpg" alt="#" />
+                <h4>Wired Alarm Systems</h4>
+                <p></p></button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

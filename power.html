@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Power Management</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 100%;
+            margin: auto;
+            padding: 20px;
+            background: rgb(1, 6, 75);
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(2, 34, 34, 0.219);
+            margin-top: -20px;
+            color: azure;
+        }
+
+        .sub {
+            background: linear-gradient(45deg, rgba(2, 6, 68, 0.555), rgba(0, 150, 100, 0.8));
+            color: azure;
+            width: 30%;
+            border-radius: 8px;
+        }
+
+        .sub h2 {
+            align-items: center;
+            margin-left: 10px;
+        }
+
+        .items {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            max-width: 100%;
+            gap: 10px;
+
+        }
+
+        .item {
+            width: 18%;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            background-color:azure;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            text-align: center;
+            margin: 10px 0;
+            flex-direction: column;
+            overflow:hidden;
+            
+        }
+        .item:hover {
+    background-color: #e0f7fa; /* Lighter background on hover */
+    transform: scale(1.05); /* Slightly larger */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3); /* More intense shadow */
+}
+
+        .item img {
+            height: 200px;
+            width: 90%;
+        }
+        .item button{
+            border: none;
+            cursor: pointer;
+            background-color:azure;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="section">
+        <div class="brand">
+            <h1>Power Management</h1>
+        </div>
+        <div class="sub">
+            <h2>Surge Protectors</h2>
+        </div>
+        <div class="items">
+            <div class="item">
+                <button onclick="window.location.href='Surge/basic.html';"> <img src="https://m.media-amazon.com/images/I/81O5GR2n+xL.jpg" alt="#" />
+                <h4>Basic Power Strip Surge Protectors</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Surge/whole.html';"> <img src="https://m.media-amazon.com/images/I/51guCOlju1L._AC_UF1000,1000_QL80_.jpg" alt="#" />
+                <h4>Whole-House Surge Protectors</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Surge/wall.html';"> <img src="https://images.thdstatic.com/productImages/c3b60362-9da7-4a91-90b9-87d8adb5f43a/svn/white-commercial-electric-surge-protectors-hdc6wuc-64_600.jpg"
+                    alt="#" />
+                <h4>Wall-Mount Surge Protectors</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Surge/rack.html';"> <img src="https://m.media-amazon.com/images/I/61KaORBGptL.jpg" alt="#" />
+                <h4>Rack-Mount Surge Protectors</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Surge/power.html';"> <img src="https://cdn.thewirecutter.com/wp-content/media/2024/07/uninterruptablepowersupply-2048px-3245-2x1-1.jpg?width=2048&quality=75&crop=2:1&auto=webp"
+                    alt="#" />
+                <h4>Uninterruptible Power Supply (UPS) with Surge Protection</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Surge/travel.html';">  <img src="https://cdn.thewirecutter.com/wp-content/media/2023/06/travelpowerstrips-2048px-0284-3x2-1.jpg?auto=webp&quality=75&crop=3:2&width=1024"
+                    alt="#" />
+                <h4>Travel Surge Protectors </h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Surge/ethernet.html';"> <img src="https://m.media-amazon.com/images/I/71qddPc2F6L._AC_UF1000,1000_QL80_.jpg"
+                    alt="#" />
+                <h4>Ethernet (Data Line) Surge Protectors</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Surge/coaxial.html';"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQDb8ZnoVAR2QYSX0U7oYjSu0b96hkxxMiKA&s"
+                    alt="#" />
+                <h4>Coaxial Cable Surge Protectors</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Surge/usb.html';">  <img src="https://cdn11.bigcommerce.com/s-0n1ne9i/images/stencil/1280x1280/products/905/5140/WiFi-USBOT_1__18885.1679081582.jpg?c=2"
+                    alt="#" />
+                <h4>USB Surge Protectors</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Surge/hvac.html';"> <img src="https://m.media-amazon.com/images/I/51vIdKkolfL.jpg" alt="#" />
+                <h4>HVAC Surge Protectors</h4>
+                <p></p></button>
+            </div>
+        </div>
+        <div class="sub">
+            <h2>UPS (Uninterruptible Power Supply)</h2>
+        </div>
+        <div class="items">
+            <div class="item">
+                <button onclick="window.location.href='Ups/standby.html';"> <img src="https://www.getscw.com/media/catalog/product/w/b/wb-ovrc-ups-850-8-1z.jpg" alt="#" />
+                <h4>Standby UPS</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Ups/line.html';"> <img src="https://assets.tripplite.com/large-image/bc600tu-back-l.jpg"
+                    alt="#" />
+                <h4>Line-Interactive UPS</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Ups/double.html';"> <img src="https://assets.tripplite.com/large-image/suint2000xlcd-front-l.jpg" alt="#" />
+                <h4>Double Conversion UPS</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Ups/delta.html';"> <img src="https://4.imimg.com/data4/GC/YS/MY-925036/1-250x250.jpg"
+                    alt="#" />
+                <h4>Delta Conversion Online UPS</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Ups/ferroresonant.html';"> <img src="https://www.eaton.com/content/dam/eaton/products/backup-power-ups-surge-it-power-distribution/backup-power-ups/eaton-ferrups-tower-ups/Eaton-Ferrups-L.jpg"
+                    alt="#" />
+                <h4>Ferroresonant UPS</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Ups/modular.html';"> <img src="https://5.imimg.com/data5/SZ/NS/ZV/SELLER-18907788/apex-modular-ups-system-500x500.jpg"
+                    alt="#" />
+                <h4>Modular UPS</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Ups/dc.html';"> <img src="https://s.alicdn.com/@sc04/kf/H5756ddb910be4cfeb9a9ac9edc0a446cE.jpg_300x300.jpg"
+                    alt="#" />
+                <h4>DC UPS</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Ups/rotary.html';"> <img src="https://assets.tripplite.com/large-image/supdmbp6k-other03-l.jpg"
+                    alt="#" />
+                <h4>Rotary UPS</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Ups/solar.html';"> <img src="https://5.imimg.com/data5/ED/XZ/ZH/GLADMIN-6352960/10-500x500.jpg" alt="#" />
+                <h4>Solar UPS</h4>
+                <p></p></button>
+            </div>
+        </div>
+        <div class="sub">
+            <h2>Charging Stations</h2>
+        </div>
+        <div class="items">
+            <div class="item">
+                <button onclick="window.location.href='Charging/desktop.html';">  <img src="https://m.media-amazon.com/images/I/71nS7Q1hv6L._AC_UF1000,1000_QL80_.jpg" alt="#" />
+                <h4>Desktop Charging Stations</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Charging/portable.html';"> <img src="https://m.media-amazon.com/images/I/41yu3P7m21L._AC_UF1000,1000_QL80_.jpg" alt="#" />
+                <h4>Portable Charging Stations</h4>
+                <p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Charging/wireless.html';"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFtxCSYko3QA0iIFqhB_C1hGGW2H3xxjYYtg&s"
+                    alt="#" />
+                <h4>Wireless Charging Stations</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Charging/rack.html';"> <img src="https://images-na.ssl-images-amazon.com/images/I/81iIW-eI-mL._AC_UL495_SR435,495_.jpg" alt="#" />
+                <h4>Rack-Mount Surge Protectors</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Charging/floor.html';"> <img src="https://www.slimlinewarehouse.com.au/static/products/5805/main_5805.webp"
+                    alt="#" />
+                <h4>Floor-Standing Charging Stations (Kiosk Style)</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Charging/charging.html';"> <img src="https://www.premier-lockers.com/wp-content/uploads/2024/08/phone-charging-steel-lockers-open-1.webp"
+                    alt="#" />
+                <h4>Charging Lockers</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Charging/solar.html';">  <img src="https://imgcdn.stablediffusionweb.com/2024/5/12/d70eb3db-395e-4bc7-b1cc-4766e8289f2b.jpg"
+                    alt="#" />
+                <h4>Solar-Powered Charging Stations</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Charging/multi.html';"> <img src="https://m.media-amazon.com/images/I/61XYeUzNIeL._AC_UF1000,1000_QL80_.jpg"
+                    alt="#" />
+                <h4>Multi-Device Charging Hubs</h4>
+                <p></p></button>
+            </div>
+            <div class="item">
+                <button onclick="window.location.href='Charging/inductive.html';"> <img src="https://ibroz.com/15012-thickbox_default/15w-wireless-induction-charger-6-in-1-hub-hdmi-4k-3-usb-c-usb-c-100w-sd-drive.jpg" alt="#" />
+                <h4>Inductive (Magnetic) Charging Stations</h4>
+                <p></p></button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
